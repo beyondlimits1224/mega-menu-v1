@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --main-font-size: 16px;
+}
+
+html {
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+}
+
+header {
+}
+
+.j-menu {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.j-menu .logo .logo-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #a59d9d;
+  transition: color 0.5s ease-in;
+}
+
+.j-menu .logo .logo-link:hover {
+  color: #fff;
+}
+
+.j-menu .menu-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.j-menu .menu-item {
+  list-style-type: none;
+}
+
+.j-menu .menu-item:not(:last-child) {
+  margin: 0 1rem 0 0;
+}
+
+.j-menu .menu-item-link {
+  text-decoration: none;
+  text-align: center;
+  color: #a59d9d;
+  transition: color 0.5s ease-in;
+}
+
+.j-menu .menu-item-link:hover {
+  color: #fff;
+}
+
+.j-menu .burger-menu {
+  display: none;
+}
+
+main {
+  width: 50%;
+  margin: 2rem auto 0 auto;
+  font-weight: 300;
+}
