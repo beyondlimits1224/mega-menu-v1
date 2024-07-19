@@ -74,6 +74,8 @@ header {
   display: flex;
   flex-direction: column;
   position: absolute;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 500px;
   background-color: white;
@@ -83,13 +85,19 @@ header {
 }
 
 .sub-menu-category h2 {
-  text-align: center;
+  text-align: left;
+  width: 50%;
 }
 
 .sub-menu-category .sub-menu {
   display: flex;
-  justify-content: center;
   margin: 4rem 0 0 0;
+  width: 50%;
+}
+
+.sub-menu-category .sub-menu .menu-item-link {
+  display: flex;
+  gap: 1rem;
 }
 
 .sub-menu-category .img-menu {
