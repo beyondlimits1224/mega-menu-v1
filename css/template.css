@@ -59,45 +59,41 @@ header {
   text-decoration: none;
   text-align: center;
   color: #a59d9d;
-  transition: color 0.5s ease-in;
-}
-
-.j-menu .menu-item-link:hover {
-  color: #fff;
 }
 
 .j-menu .burger-menu {
   display: none;
 }
 
-.j-menu .sub-menu-category {
-  display: flex;
-  flex-direction: column;
+.sub-menu-category {
+  background-color: #fff;
   position: absolute;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 500px;
-  background-color: white;
-  margin: auto;
   right: 0;
   left: 0;
-}
-
-.sub-menu-category h2 {
-  text-align: left;
-  width: 50%;
+  margin: auto;
 }
 
 .sub-menu-category .sub-menu {
   display: flex;
   margin: 4rem 0 0 0;
-  width: 50%;
+  width: 100%;
+  gap: 2rem;
+}
+
+.sub-menu-category .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: 3rem auto 0 auto;
+  width: fit-content;
 }
 
 .sub-menu-category .sub-menu .menu-item-link {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .sub-menu-category .img-menu {
